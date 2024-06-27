@@ -8,40 +8,42 @@
 .service1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 8rem;
+    gap: 20rem;
+    padding-left: 8rem;
+    padding-right: 4rem;
+    height: 25rem;
 }
-.service1 > .text{
+.service1.text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 .service1 > .text > p{
-    font-size: 90px;
+    font-size: xxx-large;
+    font-weight: bold;
     text-transform: uppercase;
 }
-.service1 > .text > button{
-    margin-left: -32rem;
+.service1 > .text > button {
     margin-top: 3rem;
     height: 3rem;
     width: 15rem;
     background-color: #212529;
     border: none;
-    padding: 5px;
-    color: #edf1f3;
-    text-transform: uppercase;
+    color: white;
     font-size: large;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all ease-in-out 0.5s;
 }
 .service1 > .text > button:hover{
     background-color: black;
 }
-.service1 > .text >image >img{
-   
-
+.service1 > image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.service2{
-    visibility: hidden;
+.service1>image>img{
+    margin-left: 3rem;  
 }
